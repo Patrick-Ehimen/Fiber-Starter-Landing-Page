@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [],
+  content: ["./*.html"],
   theme: {
     screens: {
       sm: "480px",
@@ -8,7 +9,11 @@ module.exports = {
       lg: "976px",
       xl: "1440px",
     },
-    extend: {},
+    extend: {
+      colors: {
+        blueishPurple: "#4D13D1",
+      },
+    },
   },
   plugins: [],
 };
