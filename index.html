@@ -5,10 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap"
+      rel="stylesheet"
+    />
     <link rel="favicon" href="" />
     <title>Fiber Landing Page</title>
   </head>
   <body>
     <!-- NavBar -->
+    <nav class="relative container mx-auto p-6">
+      <!-- Flex container  -->
+      <div class="flex items-center justify-between">
+        <!-- Logo -->
+        <a
+          class="flex-none text-xl font-semibold dark:text-slate-950 pt-2"
+          href="#"
+          >Fiber</a
+        >
+        <!-- Menu Item  -->
+        <div class="hidden md:flex space-x-6 pl-9">
+          <a
+            href=""
+            class="hover:text-blueishPurple font-extralight font-display"
+            >Community</a
+          >
+          <a href="" class="hover:text-blueishPurple font-extralight"
+            >Pricing</a
+          >
+          <a href="" class="hover:text-blueishPurple font-extralight"
+            >Features</a
+          >
+        </div>
+        <div class="flex">
+          <a
+            href=""
+            class="hidden md:block p-3 pt-2 text-slate-950 hover:text-blueishPurple pr-7"
+            >Sign In</a
+          >
+          <a
+            href=""
+            class="hidden md:block p-3 pt-2 text-white bg-blueishPurple rounded-sm hover:bg-white hover:text-blueishPurple"
+            >Sign Up</a
+          >
+        </div>
+      </div>
+    </nav>
   </body>
 </html>
