@@ -34,24 +34,46 @@
             class="hover:text-blueishPurple font-extralight font-display"
             >Community</a
           >
-          <a href="" class="hover:text-blueishPurple font-extralight"
+          <a
+            href=""
+            class="hover:text-blueishPurple font-extralight font-display"
             >Pricing</a
           >
-          <a href="" class="hover:text-blueishPurple font-extralight"
+          <a
+            href=""
+            class="hover:text-blueishPurple font-extralight font-display"
             >Features</a
           >
         </div>
         <div class="flex">
           <a
             href=""
-            class="hidden md:block p-3 pt-2 text-slate-950 hover:text-blueishPurple pr-7"
+            class="hidden md:block p-3 pt-2 text-slate-950 hover:text-blueishPurple pr-7 font-semibold"
             >Sign In</a
           >
           <a
             href=""
-            class="hidden md:block p-3 pt-2 text-white bg-blueishPurple rounded-sm hover:bg-white hover:text-blueishPurple"
+            class="hidden md:block p-3 pt-2 text-white bg-blueishPurple rounded tracking-widest font-medium"
             >Sign Up</a
           >
+        </div>
+        <button
+          id="menu-btn"
+          class="block hamburger md:hidden focus:outline-none"
+        >
+          <span class="humburger-top"></span>
+          <span class="humburger-middle"></span>
+          <span class="humburger-buttom"></span>
+        </button>
+      </div>
+      <div class="md:hidden">
+        <div
+          id="menu"
+          class="absolute flex-col items-center self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+        >
+          <a href="" class="hover:to-blueishPurple">Community</a>
+          <a href="" class="hover:to-blueishPurple">Pricing</a>
+          <a href="" class="hover:to-blueishPurple">Features</a>
         </div>
       </div>
     </nav>
