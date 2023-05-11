@@ -13,53 +13,57 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap"
       rel="stylesheet"
     />
-    <link rel="favicon" href="" />
+    <link rel="favicon" href="./Assets/code.svg" />
     <title>Fiber Landing Page</title>
   </head>
   <body>
     <!-- NavBar -->
-    <nav class="relative container mx-auto p-6 pb-0">
-      <!-- Flex container  -->
-      <div class="flex items-center justify-between">
-        <!-- Logo -->
-        <a
-          class="flex-none text-xl font-semibold dark:text-slate-950 pt-2"
-          href="#"
-          >Fiber</a
-        >
-        <!-- Menu Item  -->
-        <div class="hidden md:flex space-x-6 pl-9">
+    <header class="bg-grayishBrown">
+      <nav class="relative container mx-auto p-6 pb-0">
+        <!-- Flex container  -->
+        <div class="flex items-center justify-between">
+          <!-- Logo -->
           <a
-            href=""
-            class="hover:text-blueishPurple font-extralight font-display"
-            >Community</a
+            class="flex-none text-xl font-semibold dark:text-slate-950 pt-2"
+            href="#"
+            >Fiber</a
           >
-          <a
-            href=""
-            class="hover:text-blueishPurple font-extralight font-display"
-            >Pricing</a
-          >
-          <a
-            href=""
-            class="hover:text-blueishPurple font-extralight font-display"
-            >Features</a
-          >
-        </div>
-        <div class="flex">
-          <a
-            href=""
-            class="hidden md:block p-3 pt-2 text-slate-950 hover:text-blueishPurple pr-7 font-semibold"
-            >Sign In</a
-          >
-          <a
-            href=""
-            class="hidden md:block p-3 pt-2 text-white bg-blueishPurple rounded tracking-widest font-medium"
-            >Sign Up</a
-          >
-        </div>
+          <!-- Menu Item  -->
+          <div class="hidden md:flex space-x-6 pl-9">
+            <a
+              href=""
+              class="hover:text-blueishPurple font-extralight font-display"
+              >Community</a
+            >
+            <a
+              href=""
+              class="hover:text-blueishPurple font-extralight font-display"
+              >Pricing</a
+            >
+            <a
+              href=""
+              class="hover:text-blueishPurple font-extralight font-display"
+              >Features</a
+            >
+          </div>
+          <div class="flex">
+            <a
+              href=""
+              class="hidden md:block p-3 pt-2 text-slate-950 hover:text-blueishPurple pr-7 font-semibold"
+              >Sign In</a
+            >
+            <a
+              href=""
+              class="hidden md:block p-3 pt-2 text-white bg-blueishPurple rounded tracking-widest font-medium"
+              >Sign Up</a
+            >
+          </div>
 
-        <!-- Hamburger Menu  -->
-        <!-- <button
+          <!-- Hamburger Menu  -->
+          <div class="block hamburger md:hidden">
+            <img src="./Assets/Hamburger Menu.svg" alt="" />
+          </div>
+          <!-- <button
           id="menu-btn"
           class="block hamburger md:hidden focus:outline-none"
         >
@@ -67,24 +71,25 @@
           <span class="humburger-middle"></span>
           <span class="humburger-buttom"></span>
         </button> -->
-      </div>
-      <!-- Mobile menu  -->
-      <!-- <div class="md:hidden">
-        <div
-          id="menu"
-          class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
-        >
-          <a href="" class="hover:to-blueishPurple">Community</a>
-          <a href="" class="hover:to-blueishPurple">Pricing</a>
-          <a href="" class="hover:to-blueishPurple">Features</a>
         </div>
-      </div> -->
-    </nav>
+        <!-- Mobile menu  -->
+        <div class="md:hidden">
+          <div
+            id="menu"
+            class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+          >
+            <a href="" class="hover:to-blueishPurple">Community</a>
+            <a href="" class="hover:to-blueishPurple">Pricing</a>
+            <a href="" class="hover:to-blueishPurple">Features</a>
+          </div>
+        </div>
+      </nav>
+    </header>
 
     <!-- Hero section -->
-    <section class="">
+    <section class="bg-grayishBrown">
       <div
-        class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-5 space-y-0 md:space-y-0"
+        class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto space-y-0 md:space-y-0"
       >
         <!-- Left Item  -->
         <div class="flex flex-col mb-32 space-y-5 md:w-1/2">
