@@ -58,17 +58,17 @@
           >
         </div>
         <!-- Hamburger Menu  -->
-        <button
+        <!-- <button
           id="menu-btn"
           class="block hamburger md:hidden focus:outline-none"
         >
           <span class="humburger-top"></span>
           <span class="humburger-middle"></span>
           <span class="humburger-buttom"></span>
-        </button>
-      </div>
+        </button> -->
+      
       <!-- Mobile menu  -->
-      <div class="md:hidden">
+      <!-- <div class="md:hidden">
         <div
           id="menu"
           class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
@@ -77,7 +77,7 @@
           <a href="" class="hover:to-blueishPurple">Pricing</a>
           <a href="" class="hover:to-blueishPurple">Features</a>
         </div>
-      </div>
+      </div> -->
     </nav>
 
     <!-- Hero section -->
@@ -125,14 +125,30 @@
               >View Examples</a
             >
           </div>
-          <div
-            class="flex md:flex-row justify-center md:justify-start flex-col"
-          >
+          <div class="flex md:flex-row justify-start flex-col">
             <div
-              class="flex ml-1 font-extralight font-display text-lg md:font-xs md:flex-row"
+              class="flex flex-col ml-1 font-extralight font-display text-lg md:font-xs md:flex-row md:text-sm"
             >
-              <img src="./Assets/Checkmark.svg" class="mr-3 flex-col" alt="" />
-              <p>No Credit Card Required</p>
+              <div class="mb-3">
+                <img
+                  src="./Assets/Checkmark.svg"
+                  class="mr-1 md:w-4 inline-flex w-6"
+                  alt=""
+                />
+                <p class="md:text-sm mr-2 text-lg inline-flex font-bold">
+                  No Credit Card Required
+                </p>
+              </div>
+              <div>
+                <img
+                  src="./Assets/Checkmark.svg"
+                  class="mr-1 md:w-4 inline-flex w-6"
+                  alt=""
+                />
+                <p class="md:text-sm mr-2 text-lg inline-flex font-bold">
+                  10 Free Templates
+                </p>
+              </div>
             </div>
           </div>
         </div>
